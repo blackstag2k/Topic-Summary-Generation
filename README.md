@@ -20,7 +20,7 @@ to output.csv"]
 
 1. Cloning the repository:
 
-git clone https://github.com/blackstag2k/SEO-Blog-Generation.git
+git clone: https://github.com/blackstag2k/Topic-Summary-Generation.git
 
 2. Installing the Dependencies for the project:
 
@@ -72,4 +72,5 @@ Output CSV:
 
 
 Documented during the Prompt Engineering Course for a 60- word summary generation.
+
 
