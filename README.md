@@ -5,12 +5,16 @@ This project is about generating a 60 word summary for various **topics** throug
 ## Workflow
 
 flowchart TD
-    A[Import Libraries<br>(google-gen-ai, csv, pandas)] --> B[Set Up API Key]
-    B --> C[Read Input CSV File]
-    C --> D[Loop Through Each Row]
-    D --> E[Generate 60-Word Summary<br>Using Model Prompt]
-    E --> F[Append Result to Summary List<br>(as Dictionary)]
-    F --> G[Save Output Using Pandas<br>to output.csv]
+    A["Import Libraries
+(google-gen-ai, csv, pandas)"] --> B["Set Up API Key"]
+    B --> C["Read Input CSV File"]
+    C --> D["Loop Through Each Row"]
+    D --> E["Generate 60-Word Summary
+Using Model Prompt"]
+    E --> F["Append Result to Summary List
+(as Dictionary)"]
+    F --> G["Save Output Using Pandas
+to output.csv"]
 
 ## Steps to Run the Code
 
@@ -68,3 +72,4 @@ Output CSV:
 
 
 Documented during the Prompt Engineering Course for a 60- word summary generation.
+
