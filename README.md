@@ -4,6 +4,7 @@ This project is about generating a 60 word summary for various **topics** throug
 
 ## Workflow
 
+```mermaid
 flowchart TD
     A["Import Libraries
 (google-gen-ai, csv, pandas)"] --> B["Set Up API Key"]
@@ -15,6 +16,7 @@ Using Model Prompt"]
 (as Dictionary)"]
     F --> G["Save Output Using Pandas
 to output.csv"]
+```
 
 ## Steps to Run the Code
 
@@ -72,5 +74,6 @@ Output CSV:
 
 
 Documented during the Prompt Engineering Course for a 60- word summary generation.
+
 
 
